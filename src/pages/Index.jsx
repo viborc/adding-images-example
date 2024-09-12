@@ -12,10 +12,19 @@ const Index = () => {
       <main className="flex-grow">
         {/* Hero Section */}
         <section className="bg-blue-50 py-20">
-          <div className="container mx-auto px-4 text-center">
-            <h1 className="text-5xl font-bold mb-6">Revolutionize Your Workflow</h1>
-            <p className="text-xl mb-8 max-w-2xl mx-auto">Streamline your business processes and boost productivity with our cutting-edge SaaS solution.</p>
-            <Button size="lg" className="text-lg px-8 py-6">Get Started</Button>
+          <div className="container mx-auto px-4 flex flex-col md:flex-row items-center">
+            <div className="md:w-1/2 text-center md:text-left mb-8 md:mb-0">
+              <h1 className="text-5xl font-bold mb-6">Revolutionize Your Workflow</h1>
+              <p className="text-xl mb-8">Streamline your business processes and boost productivity with our cutting-edge SaaS solution.</p>
+              <Button size="lg" className="text-lg px-8 py-6">Get Started</Button>
+            </div>
+            <div className="md:w-1/2 flex justify-center">
+              <img 
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Pale_Blue_Dot.png/442px-Pale_Blue_Dot.png" 
+                alt="Pale Blue Dot"
+                className="max-w-full h-auto rounded-lg shadow-lg"
+              />
+            </div>
           </div>
         </section>
 
