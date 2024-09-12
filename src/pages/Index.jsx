@@ -12,18 +12,25 @@ const Index = () => {
       <main className="flex-grow">
         {/* Hero Section */}
         <section className="bg-blue-50 py-20">
-          <div className="container mx-auto px-4 flex flex-col md:flex-row items-center">
-            <div className="md:w-1/2 text-center md:text-left mb-8 md:mb-0">
-              <h1 className="text-5xl font-bold mb-6">Revolutionize Your Workflow</h1>
-              <p className="text-xl mb-8">Streamline your business processes and boost productivity with our cutting-edge SaaS solution.</p>
-              <Button size="lg" className="text-lg px-8 py-6">Get Started</Button>
-            </div>
-            <div className="md:w-1/2 flex justify-center">
-              <img 
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Pale_Blue_Dot.png/442px-Pale_Blue_Dot.png" 
-                alt="Pale Blue Dot"
-                className="max-w-full h-auto rounded-lg shadow-lg"
-              />
+          <div className="container mx-auto px-4">
+            <div className="flex flex-col md:flex-row items-center">
+              <div className="md:w-1/2 text-center md:text-left mb-8 md:mb-0">
+                <h1 className="text-5xl font-bold mb-6">Revolutionize Your Workflow</h1>
+                <p className="text-xl mb-8">Streamline your business processes and boost productivity with our cutting-edge SaaS solution.</p>
+                <Button size="lg" className="text-lg px-8 py-6">Get Started</Button>
+              </div>
+              <div className="md:w-1/2 flex flex-col items-center space-y-4">
+                <img 
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Pale_Blue_Dot.png/442px-Pale_Blue_Dot.png" 
+                  alt="Pale Blue Dot"
+                  className="w-full max-w-md h-auto rounded-lg shadow-lg mb-4"
+                />
+                <img 
+                  src="/c-64-close-up.jpg.jpeg" 
+                  alt="C-64 Close Up"
+                  className="w-full max-w-md h-auto rounded-lg shadow-lg"
+                />
+              </div>
             </div>
           </div>
         </section>
